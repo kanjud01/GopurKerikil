@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+	cursor: url(black.cur), auto;
+}
+
+body {
+	background-image: url(BG12.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+nav {
+	width: 100%;
+    margin: auto;
+   
+    line-height: 80px;
+    
+    top: 0;
+    background: rgba(20, 20, 20, 0.9);
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+
+}
+
+nav .logo {
+	font-size: 35px;
+	font-family: 'azonic';
+	line-height: 80px;
+	font-weight: bold;
+	color: white;
+	padding: 0 50px;
+	text-transform: uppercase;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a {
+	font-size: 20px;
+	font-family:"Roboto" ,sans-serif;
+	font-feature-settings: bold;
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 3px;
+	cursor: url(white.cur), auto;
+}
+
+nav ul li a:hover{
+	border-bottom: 1px solid black;
+}
+
+a.active, a:hover {
+
+	color: #B7A8A8;
+	opacity: 100%;
+	transition: 0.5s;
+
+}
+
+p {
+	margin: 10px;
+	font-size: 21px;
+	text-shadow: 0 0 40px white;
+	color: lightgrey;
+}
+button {
+	font-family: serif;
+	font-size: 18px;
+	background-color: whitesmoke;
+	border: 1px solid black;
+}
+
+button:hover {
+	font-family: serif;
+	font-size: 18px;
+	color: black;
+	background-color: black;
+	transition: 0.6s;
+}
+
+img {
+	width: 300px;
+	margin:10PX;
+	
+	border-radius: 10%;
+	box-shadow: 5px 5px 10px;
+}
+
+table{
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5%;
+	
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	background-color: darkgrey;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: darkgrey;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 0;
+	background: linear-gradient(lightgrey, grey);
+}
+
+.button {
+	width: 70px
+}
